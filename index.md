@@ -28,11 +28,7 @@ B09 Dr. Ali Arsanjani
 I don't think Github supports server-side code execution; website is static.
 
 We can include a download link for our app.py and have them run it locally? Need to look into gradio a bit more
-```python
-import gradio as gr
 
-def greet(name):
-    return "Hello, " + name + "!"
-iface = gr.Interface(fn=greet, inputs="text", outputs="text", title="Greeting Chatbox")
-iface.launch()
+```bash
+python app.py
 ```
