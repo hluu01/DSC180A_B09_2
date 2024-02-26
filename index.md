@@ -1,5 +1,5 @@
 # DSC180A-B09-2 website
-
+<!--To create line break: use 2 spaces after a line or use <br>-->
 Lohit Geddam lgeddam@ucsd.edu  
 
 Nicholas Shor nshor@ucsd.edu  
