@@ -1,12 +1,12 @@
 # DSC180A-B09-2 website
 
-Lohit Geddam lgeddam@ucsd.edu 
+Lohit Geddam lgeddam@ucsd.edu  
 
-Nicholas Shor nshor@ucsd.edu
+Nicholas Shor nshor@ucsd.edu  
 
-Irisa Jin irjin@ucsd.edu
+Irisa Jin irjin@ucsd.edu  
 
-Henry Luu hluu@ucsd.edu
+Henry Luu hluu@ucsd.edu  
 
 
 
