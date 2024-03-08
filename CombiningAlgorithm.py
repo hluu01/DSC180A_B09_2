@@ -10,8 +10,8 @@ def scale_and_combine(truthfullness, automl):
     scaled_variable = normalized_score * 100
 
     if abs(truthfullness - scaled_variable) > 50:
-        return truthfullness * .90 + scaled_variable * .10
+        return truthfullness
     elif abs(truthfullness - scaled_variable) > 25:
-        return truthfullness * .75 + scaled_variable * .25
+        return truthfullness * .80 + scaled_variable * .20
     else:
         return truthfullness * .60 + scaled_variable * .40
