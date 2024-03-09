@@ -5,8 +5,8 @@ def scale_and_combine(truthfullness, automl):
     for label, score in automl:
         average_score += scaling_dict[label] * score
     
-    bounded_score = max(0.25, min(average_score, 0.75))
-    normalized_score = (bounded_score - 0.25) / (0.75 - 0.25)
+    bounded_score = max(0.20, min(average_score, 0.75))
+    normalized_score = (bounded_score - 0.20) / (0.75 - 0.20)
     scaled_variable = normalized_score * 100
 
     if abs(truthfullness - scaled_variable) > 50:
