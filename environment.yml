@@ -1,0 +1,57 @@
+name: 180B-B09-2
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - nltk
+  - matplotlib
+  - numpy
+  - requests
+  - google
+  - IPython
+  - langchain
+  - scipy
+  - scikit-learn
+  - readability-lxml
+  - transformers
+  - torch
+  - google-cloud-aiplatform
+  - gradio
+  - pip
+  - pip:
+    - chromadb
+    - google-api-python-client
+    - vertexai
+    - google-generativeai
+    - langchain-vectorstores
+    - FlagEmbedding
+    - protobuf
+    - bs4
+    - google.protobuf
+    - google.protobuf.struct_pb2
+    - google-cloud-aiplatform
+    - gradio
+    - keybert
+    - google-generativeai
+    - scipy
+    - nltk
+    - matplotlib
+    - requests
+    - bs4
+    - pathlib
+    - csv
+    - google.generativeai
+    - textwrap
+    - multiprocessing
+    - string
+    - sklearn
+    - warnings
+    - sys
+    - site
+    - transformers
+    - google.cloud
+    - google.protobuf
+    - google.protobuf.struct_pb2
+    - google.protobuf.json_format
+prefix: /Users/nicholasshor/miniconda3/envs/180B-B09-2
