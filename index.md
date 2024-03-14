@@ -1,14 +1,6 @@
-# DSC180A-B09-2 website
+# Using Predictive and Generative AI to Detect Truthfulness in News Articles
 <!--To create line break: use 2 spaces after a line or use <br>-->
-Lohit Geddam lgeddam@ucsd.edu  
-
-Nicholas Shor nshor@ucsd.edu  
-
-Irisa Jin irjin@ucsd.edu  
-
-Henry Luu hluu@ucsd.edu  
-
-
+Lohit Geddam lgeddam@ucsd.edu  <br> Nicholas Shor nshor@ucsd.edu  <br> Irisa Jin irjin@ucsd.edu  <br> Henry Luu hluu@ucsd.edu  
 
 B09 Dr. Ali Arsanjani
 
