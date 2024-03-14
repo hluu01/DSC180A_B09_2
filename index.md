@@ -12,6 +12,11 @@ Henry Luu hluu@ucsd.edu
 
 B09 Dr. Ali Arsanjani
 
+**Demo Video**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EYTyIaHGdk4" frameborder="0" allowfullscreen></iframe>
+
+<!--https://youtu.be/EYTyIaHGdk4-->
+
 **Introduction/Background**  
 
 **Dataset**
@@ -23,12 +28,4 @@ B09 Dr. Ali Arsanjani
 
 **Discussion**
 
-**Gradio Chatbox**
 
-I don't think Github supports server-side code execution; website is static.
-
-We can include a download link for our app.py and have them run it locally? Need to look into gradio a bit more
-
-```bash
-python app.py
-```
