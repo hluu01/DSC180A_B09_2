@@ -104,7 +104,7 @@ The final deployment involved integrating various AI approaches to provide compr
 #### Clickbait Model
 Our clickbait model was different from our other predictors in the sense that it made binary predictions of 0 if the title wasn't clickbait and 1 if the title was clickbait. This is why we saw an accuracy score of 95.67%, which was much higher than the other predictive models performances.
 
-#### Context Veracity Model Results
+#### BERT Embedding Model Results
 Our random forest classifier trained on full-text BERT embeddings achieved a classification accuracy of 33% on the test dataset, which comprised of 1349 instances. The results indicate that while the classifier performs exceptionally well in identifying 'pants-fire' class instances with a precision of 1.00, it struggles with recall, suggesting that it often misses instances of this class.
 
 #### Google Vertex AI AutoML
