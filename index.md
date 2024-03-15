@@ -55,21 +55,21 @@ The methodology employed in this project encompasses both Predictive and Generat
 
 ### Predictive AI Models
 
-#### Full Text N-gram Analysis with Logistic Regression
+- **Full Text N-gram Analysis with Logistic Regression**
 
-#### Full Text BERT Analysis with Random Forest Classification
+- **Full Text BERT Analysis with Random Forest Classification**
 
-#### Readability Metric using Flesch-Kincaid Readability Score
+- **Readability Metric using Flesch-Kincaid Readability Score**
 
-#### Clickbait Detection using Support Vector Classification
+- **Clickbait Detection using Support Vector Classification**
 
-#### Quality of Writing Detection using GaussianNB
+- **Quality of Writing Detection using GaussianNB**
 
-#### Sensationalism Detection using GaussianNB
+- **Sensationalism Detection using GaussianNB**
 
-#### Sentiment Analysis using NLTK Sentiment Package and GaussianNB
+- **Sentiment Analysis using NLTK Sentiment Package and GaussianNB**
 
-#### Trained Models using Google Vertex AI AutoML
+- **Trained Models using Google Vertex AI AutoML**
 
 ### Generative AI
 
