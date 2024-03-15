@@ -37,7 +37,7 @@ The methodology employed in this project encompasses both Predictive and Generat
 
 <!--https://youtu.be/EYTyIaHGdk4-->
 
-# [Give-it-a-test-yourself!-:D](http://774c35acd4cc675e18.disinformation-destroyers.com/?fbclid=IwAR3fxMeCWVS2XrxoO32GWxLe95UK3BThBCgPxctN17W8BX2WRopofzyb2gw)
+# [Give-it-a-test-yourself!-:D](http://284dc0f0b32a8c9076.disinformation-destroyers.com/?fbclid=IwAR1q6DL5JQtJdAuFcolPYoQZoddYVjaeJ4VTRvPhw2KT5Mfe1O8EvSPuH_c)
 
 ### Predictive AI Models we developed:
 
