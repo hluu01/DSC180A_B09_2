@@ -24,10 +24,10 @@ The data utilized in this project comprised a combination of pre-existing datase
 ### Predictive AI Data
 
 - **Politifact**
-![Politifact Data](/images/politifact_data.png)
+![Politifact Data](/images/politifact_data.jpg)
 
 - **SciCheck.org**
-![SciCheck.org](/images/schicheck_data.png)
+![SciCheck.org](/images/scicheck_data.png)
 
 - **Liar Liar Plus - Politics**
 
@@ -40,6 +40,8 @@ The data utilized in this project comprised a combination of pre-existing datase
 ## Methodology
 
 The methodology employed in this project encompasses both Predictive and Generative AI approaches to tackle the issue of assessing truthfulness in news articles. Notably, significant emphasis was placed on leveraging state-of-the-art language models and AI techniques to achieve accurate evaluations.
+
+**Here is how our final model works:**
 
 ![Here is how our final model works](/images/Dsc_capstone_flowchart_final_model.png)
 
