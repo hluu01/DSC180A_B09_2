@@ -12,44 +12,32 @@ Mentor: [Dr. Ali Arsanjani](mailto:arsanjani@google.com)
 ## Table of Contents
 
 - [Introduction/Background](#Introduction/Background)
-- [Data](#Data)
 - [Methodology](#Methodology)
+- [Demo](#Demo-Video)
+- [Test-It-Yourself](#Give-it-a-test-yourself!-:D)
+- [Data](#Data)
 - [Results](#Results)
 - [Discussion](#Discussion)
-- [Demo](#Demo-Video)
 
 ## Introduction/Background
 In this project we developed both Generative and Predictive models that were able to produce either truthfulness scores from 1-100, or return a truthfulness label. The labels we used comes from PolitiFact’s Truth-o-meter scale which has a range of classifications which are, True, Mostly-true, Half-true, Barely-true, False, and Pants-on-fire. This gives a much more accurate description of the truth value of an article in comparison to a simple binary classification stating whether something is true or false. The truthfulness of a statement is never simply true or false and is instead a blurred scale where many factors must be accounted for. In the end, our model was able to accurately predict the label of a statement from this six way classification over 82\% of the time. Also, a majority of the incorrect predictions were only one label off which is very promising. This is still far from where we would like the final product to be to fully implement a project like this, but in a field where much work still must be done it is a very impressive result.
 
-## Data
-
-The data utilized in this project comprised a combination of pre-existing datasets from previous studies and additional data collected through web scraping for specific project requirements. The dataset section is categorized into predictive and generative AI data, corresponding to the distinct datasets used for these methodologies.
-
-### Predictive AI Data
-
-- **Politifact**
-![Politifact Data](/images/politifact_data.jpg)
-
-- **SciCheck.org**
-![SciCheck.org](/images/scicheck_data.png)
-
-- **Liar Liar Plus - Politics**
-
-- **FactCheck.org - US Politics**
-
-- **ScienceFeedback.org - Healthcare**
-
 
 
 ## Methodology
-
-The methodology employed in this project encompasses both Predictive and Generative AI approaches to tackle the issue of assessing truthfulness in news articles. Notably, significant emphasis was placed on leveraging state-of-the-art language models and AI techniques to achieve accurate evaluations.
 
 **Here is how our final model works:**
 
 ![Here is how our final model works](/images/Dsc_capstone_flowchart_final_model.png)
 
 The methodology employed in this project encompasses both Predictive and Generative AI approaches to tackle the issue of assessing truthfulness in news articles. Notably, significant emphasis was placed on leveraging state-of-the-art language models and AI techniques to achieve accurate evaluations.
+
+## Demo Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EYTyIaHGdk4" frameborder="0" allowfullscreen></iframe>
+
+<!--https://youtu.be/EYTyIaHGdk4-->
+
+# [Give-it-a-test-yourself!-:D](http://774c35acd4cc675e18.disinformation-destroyers.com/?fbclid=IwAR3fxMeCWVS2XrxoO32GWxLe95UK3BThBCgPxctN17W8BX2WRopofzyb2gw)
 
 ### Predictive AI Models we developed:
 
@@ -76,6 +64,24 @@ The Generative AI process commenced with the instantiation of Google's Gemini Pr
 ### Final Deployment
 The final deployment involved integrating various AI approaches to provide comprehensive evaluations of news articles. Chunking of articles, combined with context enrichment through Generative AI models, contributed to accurate assessments. Gradio, a user-friendly web interface platform, was utilized for model deployment, enabling users to receive truthfulness evaluations along with predictive scores and overall article synopses.
 
+## Data
+
+The data utilized in this project comprised a combination of pre-existing datasets from previous studies and additional data collected through web scraping for specific project requirements. The dataset section is categorized into predictive and generative AI data, corresponding to the distinct datasets used for these methodologies.
+
+### Predictive AI Data
+
+- **Politifact**
+![Politifact Data](/images/politifact_data.jpg)
+
+- **SciCheck.org**
+![SciCheck.org](/images/scicheck_data.png)
+
+- **Liar Liar Plus - Politics**
+
+- **FactCheck.org - US Politics**
+
+- **ScienceFeedback.org - Healthcare**
+
 ## Results
 
 ### Predictive Model Results
@@ -97,11 +103,5 @@ Despite these contributions, there are several limitations to consider. Firstly,
 
 Moreover, while our model achieved an accuracy of 82.4%, it is essential to recognize that truthfulness assessment is inherently subjective and context-dependent. Additional improvements in processing power and prompt engineering may further enhance model performance. Ultimately, our model serves as a valuable tool for truthfulness assessment, but definitive conclusions about the absolute truthfulness of an article or statement remain elusive, given the multiplicity of perspectives on any given topic. Continued refinement and validation of our methodologies are necessary to address these challenges and foster a more nuanced understanding of truthfulness in media content.
 
-## Demo Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EYTyIaHGdk4" frameborder="0" allowfullscreen></iframe>
-
-<!--https://youtu.be/EYTyIaHGdk4-->
-
-# [Give-it-a-test-yourself!-:D](http://774c35acd4cc675e18.disinformation-destroyers.com/?fbclid=IwAR3fxMeCWVS2XrxoO32GWxLe95UK3BThBCgPxctN17W8BX2WRopofzyb2gw)
 
 
