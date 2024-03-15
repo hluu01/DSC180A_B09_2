@@ -1,24 +1,21 @@
 # Using Predictive and Generative AI to Detect Truthfulness in News Articles
 
-**Collaborators**
+**UCSD Halıcıoğlu Data Science Institute**
+
+**UC San Diego Data Science Senior Capstone Project**
 <!--To create line break: use 2 spaces after a line or use <br>-->
-Lohit Geddam [lgeddam@ucsd.edu](mailto:lgeddam@ucsd.edu)
 
-Nicholas Shor [nshor@ucsd.edu](mailto:nshor@ucsd.edu)
-
-Irisa Jin [irjin@ucsd.edu](mailto:irjin@ucsd.edu)
-
-Henry Luu [hluu@ucsd.edu](mailto:hluu@ucsd.edu)
+Lohit Geddam [lgeddam@ucsd.edu](mailto:lgeddam@ucsd.edu), Nicholas Shor [nshor@ucsd.edu](mailto:nshor@ucsd.edu), Irisa Jin [irjin@ucsd.edu](mailto:irjin@ucsd.edu), Henry Luu [hluu@ucsd.edu](mailto:hluu@ucsd.edu)
 
 Mentor: Dr. Ali Arsanjani [arsanjani@google.com](mailto:arsanjani@google.com)
+
+## Introduction/Background
+In this project we developed both Generative and Predictive models that were able to produce either truthfulness scores from 1-100, or return a truthfulness label. The labels we used comes from PolitiFact’s Truth-o-meter scale which has a range of classifications which are, True, Mostly-true, Half-true, Barely-true, False, and Pants-on-fire. This gives a much more accurate description of the truth value of an article in comparison to a simple binary classification stating whether something is true or false. The truthfulness of a statement is never simply true or false and is instead a blurred scale where many factors must be accounted for. In the end, our model was able to accurately predict the label of a statement from this six way classification over 82\% of the time. Also, a majority of the incorrect predictions were only one label off which is very promising. This is still far from where we would like the final product to be to fully implement a project like this, but in a field where much work still must be done it is a very impressive result.
 
 ## Demo Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EYTyIaHGdk4" frameborder="0" allowfullscreen></iframe>
 
 <!--https://youtu.be/EYTyIaHGdk4-->
-
-## Introduction/Background
-In this project we developed both Generative and Predictive models that were able to produce either truthfulness scores from 1-100, or return a truthfulness label. The labels we used comes from PolitiFact’s Truth-o-meter scale which has a range of classifications which are, True, Mostly-true, Half-true, Barely-true, False, and Pants-on-fire. This gives a much more accurate description of the truth value of an article in comparison to a simple binary classification stating whether something is true or false. The truthfulness of a statement is never simply true or false and is instead a blurred scale where many factors must be accounted for. In the end, our model was able to accurately predict the label of a statement from this six way classification over 82\% of the time. Also, a majority of the incorrect predictions were only one label off which is very promising. This is still far from where we would like the final product to be to fully implement a project like this, but in a field where much work still must be done it is a very impressive result.
 
 ## Data
 
@@ -26,32 +23,25 @@ The data utilized in this project comprised a combination of pre-existing datase
 
 ### Predictive AI Data
 
-#### Liar Liar Plus Dataset
-The primary dataset employed was the Liar Liar Plus dataset, encompassing statements made by individuals or posted online, along with associated truth labels, subjects, speakers, speaker’s occupations, political affiliations, statement locations, and supplementary justifications. This dataset served as the foundational dataset for training the autoML and BERT full-text embedding models.
+- **Politifact**
+![Politifact Data](/images/politifact_data.png)
 
-#### Sean Jiang's Scraped PolitiFact Dataset
-Additionally, we utilized a dataset scraped by a classmate, containing truth ratings from PolitiFact for various speakers. This dataset provided information on the truthfulness of statements categorized into six levels: true, mostly true, half true, barely true, false, and pants on fire. It facilitated the training of n-gram, autoML, sentiment analysis, quality of writing, and sensationalism models.
+- **SciCheck.org**
+![SciCheck.org](/images/schicheck_data.png)
 
-#### Kaggle Clickbait Dataset
-Furthermore, we incorporated a Clickbait dataset obtained from Kaggle, consisting of article headlines labeled as clickbait (1) or non-clickbait (0). This dataset was utilized to train the clickbait detection model.
+- **Liar Liar Plus - Politics**
 
-### Generative AI Data
+- **FactCheck.org - US Politics**
 
-#### Politifact.com Data
-We collected information from Politifact.com, a Pulitzer Prize-winning fact-checking website, comprising two datasets: one containing article titles and text, and another containing statements made by individuals along with corresponding truth values and explanations for the ratings.
+- **ScienceFeedback.org - Healthcare**
 
-#### FactCheck.org Data
-Data was also scraped from FactCheck.org, providing article text, titles, dates, and additional data.
 
-#### SciCheck.org Data
-From SciCheck.org, a division of FactCheck.org focusing on false scientific claims, we obtained datasets containing article text, titles, and dates.
-
-#### Science.Feedback.org Data
-Finally, we acquired data from Science.Feedback.org, a fact-checking organization specializing in scientific claims, consisting of statements and corresponding labels.
 
 ## Methodology
 
 The methodology employed in this project encompasses both Predictive and Generative AI approaches to tackle the issue of assessing truthfulness in news articles. Notably, significant emphasis was placed on leveraging state-of-the-art language models and AI techniques to achieve accurate evaluations.
+
+![Here is how our final model works](/images/Dsc_capstone_flowchart_final_model.png)
 
 ### Predictive AI Models
 
