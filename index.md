@@ -49,7 +49,9 @@ The methodology employed in this project encompasses both Predictive and Generat
 
 ![Here is how our final model works](/images/Dsc_capstone_flowchart_final_model.png)
 
-### Predictive AI Models
+The methodology employed in this project encompasses both Predictive and Generative AI approaches to tackle the issue of assessing truthfulness in news articles. Notably, significant emphasis was placed on leveraging state-of-the-art language models and AI techniques to achieve accurate evaluations.
+
+### Predictive AI Models we developed:
 
 - **Full Text N-gram Analysis with Logistic Regression**
 
@@ -99,5 +101,7 @@ Moreover, while our model achieved an accuracy of 82.4%, it is essential to reco
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EYTyIaHGdk4" frameborder="0" allowfullscreen></iframe>
 
 <!--https://youtu.be/EYTyIaHGdk4-->
+
+# [Give-it-a-test-yourself!-:D](http://774c35acd4cc675e18.disinformation-destroyers.com/?fbclid=IwAR3fxMeCWVS2XrxoO32GWxLe95UK3BThBCgPxctN17W8BX2WRopofzyb2gw)
 
 
