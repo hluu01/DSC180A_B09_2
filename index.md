@@ -1,4 +1,4 @@
-# Using Predictive and Generative AI to Detect Truthfulness in News Articles
+Using Predictive and Generative AI to Detect Truthfulness in News Articles
 
 **UCSD Halıcıoğlu Data Science Institute**
 
